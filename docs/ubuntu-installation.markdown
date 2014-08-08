@@ -10,6 +10,10 @@ Install Apache and PHP:
 sudo apt-get update
 sudo apt-get install -y php5 php5-sqlite unzip
 ```
+You might want to restart the apache webserver in case it was running to reload the php modules
+```bash
+service apache2 restart```
+
 
 Install Kanboard:
 
